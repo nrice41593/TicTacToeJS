@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Tic Tac Toe!</title>
+    </head>
+    <body>
+        <header>
+            <div id="start">
+                <p>To reset the board, press <br>'New Game'.</p>
+                <button id="playButton">New Game</button>
+                <p>Created by Michael Gombos<br>
+                <a href="https://github.com/MichaelGombos/web_tic-tac-toe">Repository</a></p>
+            </div>
+        </header>
+        <main>
+            <div id="scoreBoard">
+                <p class="Name">x</p>
+                <p id="score">0-0</p>
+                <p class="Name">o</p>
+            </div>
+            <div id="board">
+                <div class = "ticBox" data-index = "0 0"></div>
+                <div class = "ticBox" data-index = "0 1"></div>
+                <div class = "ticBox" data-index = "0 2"></div>
+                <div class = "ticBox" data-index = "1 0"></div>
+                <div class = "ticBox" data-index = "1 1"></div>
+                <div class = "ticBox" data-index = "1 2"></div>
+                <div class = "ticBox" data-index = "2 0"></div>
+                <div class = "ticBox" data-index = "2 1"></div>
+                <div class = "ticBox" data-index = "2 2"></div>
+            </div>
+
+        </main>
+
+    </body>
+    <script type="text/javascript" src="tic_tac_toe.js"></script>
+</html>

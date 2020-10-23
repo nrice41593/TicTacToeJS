@@ -1,0 +1,99 @@
+body{
+    background-color: #d16d54;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2370d9f2' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%2311596a' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2368cded' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23126177' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%235bcee4' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23177083' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%234dc6e3' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%2317738e' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%2343bbe1' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%231880a1' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%2336bbdc' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%231c8fa7' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#start{
+    max-height: 250px;
+    max-width:400px;
+    height: 250px;
+    width:400px;
+
+    margin-left:50%;
+    transform: translate(-50%);
+
+    background-color: #72D9F2;
+    border-radius: 20px;
+}
+
+#start p{
+    padding-top: 20px;
+    width:270px;
+    margin-left:50%;
+    transform: translate(-50%);
+
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+}
+#playButton{
+    width:270px;
+    height: 90px;
+    font-size:30px;
+    margin-left:50%;
+    transform: translate(-50%);
+
+    border: 0px solid black;
+    background-color: #32BADB;
+    border-radius: 15px;
+}
+main{
+
+}
+#scoreBoard{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    height: 120px;
+}
+
+#score{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size:50px;
+}
+.Name{
+    font-size:50px;
+
+}
+#winnerText{
+    display:flex;
+    justify-content: center;
+}
+#board{
+    margin-left:50%;
+    transform: translate(-50%);
+
+
+    max-width: 400px;
+    max-height: 400px;
+    width: 400px;
+    height: 400px;
+
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: stretch;
+
+    border: 5px solid #125161;
+    background-color:#125161;
+}
+
+.ticBox{
+    background-color: #72D9F2;
+    text-align: center;
+    width:100%;
+    height:100%;
+    line-height: 190%;
+
+    font-size: 65px;
+    font-family: Impact, Charcoal, sans-serif;
+
+}
